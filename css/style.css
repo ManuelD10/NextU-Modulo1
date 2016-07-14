@@ -1,0 +1,20 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.img-header{
+	background: green;
+	height: 180px;
+	width: 100%;
+}
+.toll-bar{
+	background: #10a4bf;
+	color: #063d48;
+	width: 100%;	
+}
+.btn-menu{
+	display: inline-block;
+	font-family: sans-serif;
+	height: 50px;
+	width: 150px;
+}
