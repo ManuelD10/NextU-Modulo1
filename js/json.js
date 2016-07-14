@@ -1,5 +1,4 @@
-{
-	"estudiantes":[
+
 		{
 			"codigo": "001",
 			"nombre": "Andrés Narvaez",
@@ -49,6 +48,4 @@
 			"codigo": "010",
 			"nombre": "Manuel",
 			"nota": "4.8"
-		},
-	]
-}
+		}
