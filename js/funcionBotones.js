@@ -1,4 +1,4 @@
-function  traerDatos() {
+function  monstrarTodos() {
 		alert("funciona");
-		document.getElementById("estudiante").innerHTML="sdfgsdfghsdfghxdfg algo!!!!";
+		document.getElementById("estudiantesLista").innerHTML="sdfgsdfghsdfghxdfg algo!!!!";
 	}

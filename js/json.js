@@ -1,4 +1,3 @@
-
 		{
 			"codigo": "001",
 			"nombre": "Andrés Narvaez",
@@ -6,46 +5,46 @@
 		},
 		{
 			"codigo": "002",
-			"nombre": "Manuel",
-			"nota": "4.8"
+			"nombre": "Oscar Hernandez",
+			"nota": "4.5"
 		},
 		{
 			"codigo": "003",
-			"nombre": "Manuel",
+			"nombre": "Felipe Rodriguez",
 			"nota": "4.8"
 		},
 		{
 			"codigo": "004",
-			"nombre": "Manuel",
+			"nombre": "Gabriel Neira",
 			"nota": "4.8"
 		},
 		{
 			"codigo": "005",
-			"nombre": "Manuel",
+			"nombre": "Manuel Daza",
 			"nota": "4.8"
 		},
 		{
 			"codigo": "006",
-			"nombre": "Manuel",
+			"nombre": "Erika Parra",
 			"nota": "4.8"
 		},
 		{
 			"codigo": "007",
-			"nombre": "Manuel",
+			"nombre": "Milena Miranda",
 			"nota": "4.8"
 		},
 		{
 			"codigo": "008",
-			"nombre": "Manuel",
+			"nombre": "Jorge Rios",
 			"nota": "4.8"
 		},
 		{
 			"codigo": "009",
-			"nombre": "Manuel",
-			"nota": "4.8"
+			"nombre": "Natalia Guzman",
+			"nota": "4.9"
 		},
 		{
 			"codigo": "010",
-			"nombre": "Manuel",
+			"nombre": "Wilian Duarte",
 			"nota": "4.8"
 		}
