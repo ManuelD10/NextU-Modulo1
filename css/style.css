@@ -13,8 +13,20 @@ body{
 	width: 100%;	
 }
 .btn-menu{
+	cursor: pointer;
 	display: inline-block;
 	font-family: sans-serif;
 	height: 50px;
 	width: 150px;
+}
+.section{
+	display: none;
+	margin: 0 auto;
+	width: 400px;
+}
+.promedio{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-weight: bold;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PRIMER EJERCICIO NEXTU -JAVASCRIPT-</title>
+	<title>PRIMER EJERCICIO NEXTU -JAVASCRIPT- </title>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<script type="text/javascript" src="js/funcionBotones.js"></script>
 	<script type="text/javascript" src="js/json.js"></script>
@@ -10,8 +10,8 @@
 <section id="header">
 	<div id="imageHeader" class="img-header"></div>
 	<div id="toolBar" class="toll-bar">
-		<div id="btnTodos"  onclick="mostrarTodos()" class="btn-menu">Todos</div>
-		<div id="btnPromedio" class="btn-menu">Promedio</div>
+		<div id="btnTodos"  onclick="mostrarTodos()" class="btn-menu">Lista de estudiantes</div>
+		<div id="btnPromedio" onclick="mostrarPromedio()" class="btn-menu">Promedio</div>
 		<div id="btnMayor" class="btn-menu">Mayor Nota</div>
 		<div id="btnMenor" class="btn-menu">Menor Nota</div>
 	</div>
@@ -19,15 +19,32 @@
 
 <!-- SECTION CARGA DE TODOS LOS DATOS  -->
 
-<section>
+<section class="section" id="ctnLista">
+	<h2 >Lista de estudiantes</h2>
 	<div id="estudiantesLista"></div>
 </section>
 
-<!-- SECTION Promedio  -->
+<!-- SECTION PROMEDIO  -->
 
-<section>
+<section class="section" id="ctnPromedio">
 	<h2>Promedio del salon</h2>
+	<div id="promedioSalon" class="promedio">26.8</div>
 </section>
+
+<!-- SECTION MAYOR NOTA  -->
+
+<section class="section">
+	<h2>Mejor nota</h2>
+	<div id="mayorNota"></div>
+</section>
+
+<!-- SECTION MENOR NOTA  -->
+
+<section class="section">
+	<h2>Peor nota</h2>
+	<div id="menorNota"></div>
+</section>
+
 </body>
 </script>
 </html>
