@@ -10,38 +10,38 @@
 <section id="header">
 	<div id="imageHeader" class="img-header"></div>
 	<div id="toolBar" class="toll-bar">
-		<div id="btnTodos"  onclick="mostrarTodos()" class="btn-menu">Lista de estudiantes</div>
+		<div id="btnTodos"  onclick="mostrarTodos()" class="btn-menu">Listado</div>
 		<div id="btnPromedio" onclick="mostrarPromedio()" class="btn-menu">Promedio</div>
-		<div id="btnMayor" class="btn-menu">Mayor Nota</div>
-		<div id="btnMenor" class="btn-menu">Menor Nota</div>
+		<div id="btnMayor" onclick="mostrarMayor()" class="btn-menu">Mayor Nota</div>
+		<div id="btnMenor" onclick="mostrarMenor()" class="btn-menu">Menor Nota</div>
 	</div>
 </section>
 
 <!-- SECTION CARGA DE TODOS LOS DATOS  -->
 
 <section class="section" id="ctnLista">
-	<h2 >Lista de estudiantes</h2>
+	<h1 class="titles">Lista de estudiantes</h1>
 	<div id="estudiantesLista"></div>
 </section>
 
 <!-- SECTION PROMEDIO  -->
 
 <section class="section" id="ctnPromedio">
-	<h2>Promedio del salon</h2>
-	<div id="promedioSalon" class="promedio">26.8</div>
+	<h1 class="titles">Promedio del salon</h1>
+	<div id="promedioSalon" class="promedio"></div>
 </section>
 
 <!-- SECTION MAYOR NOTA  -->
 
-<section class="section">
-	<h2>Mejor nota</h2>
-	<div id="mayorNota"></div>
+<section class="section" id="ctnMayor">
+	<h1 class="titles">Mejor nota</h1>
+	<div id="mayorNota">666</div>
 </section>
 
 <!-- SECTION MENOR NOTA  -->
 
-<section class="section">
-	<h2>Peor nota</h2>
+<section class="section" id="ctnMenor">
+	<h1 class="titles">Peor nota</h1>
 	<div id="menorNota"></div>
 </section>
 
