@@ -50,3 +50,15 @@ var jsonEstudiantes = [
 			"nota": "4.8"
 		}
 ];
+
+function leerJSON(json){
+
+	var out = "";
+	var i;
+	for (i=0; i<json.length; i++ ) {
+		document.getElementById("estudiantesLista").document.write(json[i].nombre);
+	}
+}
+leerJSON(jsonEstudiantes);
+
+

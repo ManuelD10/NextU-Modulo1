@@ -1,18 +1,10 @@
-function leerJson(json){
-	var out = "";
-	var i;
-	for (i=0; i<json.lenght; i++) {
-		alert("Nombre:"+json[i.nombre]);
-	}
-}
-leerJson(jsonEstudiantes);
-
 function  mostrarTodos() {
 	document.getElementById("ctnLista").style.display = "block";
 	document.getElementById("ctnPromedio").style.display = "none";
 	document.getElementById("ctnMayor").style.display = "none";
 	document.getElementById("ctnMenor").style.display = "none";
 	document.getElementById("estudiantesLista").innerHTML="json.js";
+	console.log(JSON[i].codigo);
 }
 
 function mostrarPromedio(){
